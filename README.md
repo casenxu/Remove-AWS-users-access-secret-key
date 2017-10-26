@@ -25,13 +25,13 @@ this repo generate an AWS Lambda function that remove all the AWS IAM users acce
 ## How to build it
 It is enough these list of instruction
 
-  git clone https://github.com/giuseppeborgese/Remove-AWS-users-access-secret-key
-  cd Remove-AWS-users-access-secret-key
-  terraform init
-  terraform apply --var region=us-east-1 --var cred-file=/Users/giuseppe/.aws/credentials --var prefix=peppeTest --var myexclusionlist=giuseppeborgese
+    git clone https://github.com/giuseppeborgese/Remove-AWS-users-access-secret-key
+    cd Remove-AWS-users-access-secret-key
+    terraform init
+    terraform apply --var region=us-east-1 --var cred-file=/Users/giuseppe/.aws/credentials --var prefix=peppeTest --var myexclusionlist=giuseppeborgese
 
 ## How to clean your environment
 If you are happy of your test and you want clean it , it is enough
 
-  cd Remove-AWS-users-access-secret-key
-  terraform destroy --force  
+    cd Remove-AWS-users-access-secret-key
+    terraform destroy --force  
