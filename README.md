@@ -35,3 +35,7 @@ If you are happy of your test and you want clean it , it is enough
 
     cd Remove-AWS-users-access-secret-key
     terraform destroy --force  
+
+## The tutorial video
+
+[![Remove-AWS-users-access-secret-key](https://img.youtube.com/vi/EKEi8Y1jsCU/0.jpg)](https://youtu.be/EKEi8Y1jsCU)
